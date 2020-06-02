@@ -8,7 +8,9 @@ Usar modo imperativo ("Adiciona feature" não "Adicionando feature" ou "Adiciona
 Primeira linha deve ter no máximo 70 caracteres
 Considere descrever com detalhes no corpo do commit
 Obrigatório usar um emoji no início da mensagem de commit
+
 Emoji	Código	Tipo do commit
+
 🎉	:tada:	initial commit
 🎨	:art:	quando melhorar a estrutura/formato do código
 🐎	:racehorse:	quando melhorar a performance
@@ -21,7 +23,9 @@ Emoji	Código	Tipo do commit
 🚀	:rocket:	nova feature
 🙈	:see_no_evil:	gambiarra
 🎁	:gift:	nova versão
+
 Exemplo
+
 git commit -m ":memo: Adiciona instruções de contribuição
 >
 > Foi criado o arquivo README.md com as instruções de
