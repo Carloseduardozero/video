@@ -46,6 +46,6 @@ Atividade avaliativa
 
 **Arquitetura**
 
-![arquitetura](Doc/Arquitetura.jpg)
+![arquitetura](Doc/arquitetura.jpg)
 
 
