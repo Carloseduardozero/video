@@ -16,12 +16,36 @@ Atividade avaliativa
 - React Native
 -JavaScript
 
-Frameworks:
-
--Expo
--npm
--Axios
 
 **API**
+
+- [YouTube](https://www.googleapis.com/youtube/v3)
+
+
+**Frameworks**
+
+- Expo
+- Axios
+
+**Comandos**
+
+- Instalar o Expo-cli:
+  npm install -g expo-cli
+
+- Inicializar uma aplicação
+  expo init name_project
+
+- Instalar dependências
+  npm install
+
+- Start na aplicação
+  npm start
+
+  
+
+
+**Arquitetura**
+
+![arquitetura](Doc/Arquitetura.jpg)
 
 

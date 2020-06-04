@@ -15,7 +15,7 @@ export default function Logica({ navigation }) {
 
          <View style={Style.body}>
             <View style={Style.player}>
-                <WebView source={{ uri: 'https://www.youtube.com/embed/6vE0oFFSE7c'}} allowsFullscreenVideo={true} />
+                <WebView source={{ uri: 'https://www.youtube.com/watch?v=VUkOQNTul1I'}} allowsFullscreenVideo={true} />
             </View>            
         </View>
 
