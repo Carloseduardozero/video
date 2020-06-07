@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, TouchableOpacity, Image } from "react-native";
 import logoImg from "../../assets/logo.png";
 import Style from "./style";
-
+import { WebView } from 'react-native-webview';
 export default function Desenvolvimento1({ navigation }) {
   return (
     <View style={Style.container}>
@@ -12,6 +12,14 @@ export default function Desenvolvimento1({ navigation }) {
         </View>
         <Text style={Style.title}>Desenvolvimento de Sistemas 1</Text>
       </View>
-    </View>
+      <View style={Style.body}>
+            <View style={Style.player}>
+               <WebView source={{ uri: 'https://www.youtube.com/watch?v=6DxdX8Pn9Hk'}} allowsFullscreenVideo={true} />
+            </View>            
+        </View>
+
+      </View>
+    
+    
   );
 }  
